@@ -4,7 +4,7 @@
 
 FEGCRAFT is a community Minecraft server built with Fabric, Velocity and Docker. This repository documents the server configuration, mod inventory, integrations and backup workflow for maintainers and mod creators. Secrets, player data and live world files are intentionally excluded.
 
-![FEGCRAFT landscape](docs/images/fegleimental-sign.png)
+![FEGCRAFT landscape](docs/images/summit-party.png)
 
 ## At a glance
 
@@ -22,7 +22,7 @@ The information above is drawn from the November 2026 production audit. See [run
 
 ## Gallery
 
-<table><tr><td width="50%"><img src="docs/images/summit-party.png" alt="Players on a snowy summit" /></td><td width="50%"><img src="docs/images/mountain-cross.png" alt="Mountain cross" /></td></tr><tr><td><img src="docs/images/night-settlement.png" alt="Settlement at night" /></td><td><img src="docs/images/fortress-overview.png" alt="Fortress overview" /></td></tr></table>
+<table><tr><td width="50%"><img src="docs/images/fegleimental-sign.png" alt="FEG Sign" /></td><td width="50%"><img src="docs/images/mountain-cross.png" alt="Mountain cross" /></td></tr><tr><td><img src="docs/images/night-settlement.png" alt="Settlement at night" /></td><td><img src="docs/images/fortress-overview.png" alt="Fortress overview" /></td></tr></table>
 
 ## Get started
 
