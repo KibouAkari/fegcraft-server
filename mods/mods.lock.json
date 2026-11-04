@@ -1,0 +1,647 @@
+{
+  "minecraft_version": "26.2",
+  "fabric_loader_version": "0.19.5",
+  "inventory_method": "observed filename listing; hashes and metadata pending live-host export",
+  "mods": [
+    {
+      "filename": "antixray-fabric-1.4.16+26.1.jar",
+      "mod_id": null,
+      "mod_name": null,
+      "version": null,
+      "sha256": null,
+      "source_url": null,
+      "license": null,
+      "redistribution_reviewed": false
+    },
+    {
+      "filename": "balm-fabric-26.2-26.2.0.8.jar",
+      "mod_id": null,
+      "mod_name": null,
+      "version": null,
+      "sha256": null,
+      "source_url": null,
+      "license": null,
+      "redistribution_reviewed": false
+    },
+    {
+      "filename": "betterdays-26.2-fabric-4.1.1.7-FABRIC.jar",
+      "mod_id": null,
+      "mod_name": null,
+      "version": null,
+      "sha256": null,
+      "source_url": null,
+      "license": null,
+      "redistribution_reviewed": false
+    },
+    {
+      "filename": "c2me-fabric-mc26.2-0.4.2-alpha.0.43.jar",
+      "mod_id": null,
+      "mod_name": null,
+      "version": null,
+      "sha256": null,
+      "source_url": null,
+      "license": null,
+      "redistribution_reviewed": false
+    },
+    {
+      "filename": "carryon-fabric-26.2-2.11.0.jar",
+      "mod_id": null,
+      "mod_name": null,
+      "version": null,
+      "sha256": null,
+      "source_url": null,
+      "license": null,
+      "redistribution_reviewed": false
+    },
+    {
+      "filename": "chopt-1.0.10+mc26.2.jar",
+      "mod_id": null,
+      "mod_name": null,
+      "version": null,
+      "sha256": null,
+      "source_url": null,
+      "license": null,
+      "redistribution_reviewed": false
+    },
+    {
+      "filename": "Chunky-Fabric-1.5.3.jar",
+      "mod_id": null,
+      "mod_name": null,
+      "version": null,
+      "sha256": null,
+      "source_url": null,
+      "license": null,
+      "redistribution_reviewed": false
+    },
+    {
+      "filename": "cloth-config-26.2.155.jar",
+      "mod_id": null,
+      "mod_name": null,
+      "version": null,
+      "sha256": null,
+      "source_url": null,
+      "license": null,
+      "redistribution_reviewed": false
+    },
+    {
+      "filename": "Clumps-fabric-26.2-26.2.1.jar",
+      "mod_id": null,
+      "mod_name": null,
+      "version": null,
+      "sha256": null,
+      "source_url": null,
+      "license": null,
+      "redistribution_reviewed": false
+    },
+    {
+      "filename": "collective-26.2.0-8.39.jar",
+      "mod_id": null,
+      "mod_name": null,
+      "version": null,
+      "sha256": null,
+      "source_url": null,
+      "license": null,
+      "redistribution_reviewed": false
+    },
+    {
+      "filename": "cristellib-fabric-26.2-3.1.11.jar",
+      "mod_id": null,
+      "mod_name": null,
+      "version": null,
+      "sha256": null,
+      "source_url": null,
+      "license": null,
+      "redistribution_reviewed": false
+    },
+    {
+      "filename": "crossstitch-0.1.6.jar",
+      "mod_id": null,
+      "mod_name": null,
+      "version": null,
+      "sha256": null,
+      "source_url": null,
+      "license": null,
+      "redistribution_reviewed": false
+    },
+    {
+      "filename": "cushionbackport-26.2-Fabric-1.0.5.jar",
+      "mod_id": null,
+      "mod_name": null,
+      "version": null,
+      "sha256": null,
+      "source_url": null,
+      "license": null,
+      "redistribution_reviewed": false
+    },
+    {
+      "filename": "dcintegration-fabric-MC26.2-3.2.1.jar",
+      "mod_id": null,
+      "mod_name": null,
+      "version": null,
+      "sha256": null,
+      "source_url": null,
+      "license": null,
+      "redistribution_reviewed": false
+    },
+    {
+      "filename": "droppablevillagertrades-fabric-26.1-1.0.1.jar",
+      "mod_id": null,
+      "mod_name": null,
+      "version": null,
+      "sha256": null,
+      "source_url": null,
+      "license": null,
+      "redistribution_reviewed": false
+    },
+    {
+      "filename": "elytraslot-fabric-26.2-3.0.0.jar",
+      "mod_id": null,
+      "mod_name": null,
+      "version": null,
+      "sha256": null,
+      "source_url": null,
+      "license": null,
+      "redistribution_reviewed": false
+    },
+    {
+      "filename": "elytratrims-fabric-4.9.0-beta.6+26.2.jar",
+      "mod_id": null,
+      "mod_name": null,
+      "version": null,
+      "sha256": null,
+      "source_url": null,
+      "license": null,
+      "redistribution_reviewed": false
+    },
+    {
+      "filename": "emotecraft-for-MC26.2-3.4.0-b.build.165.jar",
+      "mod_id": null,
+      "mod_name": null,
+      "version": null,
+      "sha256": null,
+      "source_url": null,
+      "license": null,
+      "redistribution_reviewed": false
+    },
+    {
+      "filename": "entityculling-fabric-1.10.5-mc26.2.jar",
+      "mod_id": null,
+      "mod_name": null,
+      "version": null,
+      "sha256": null,
+      "source_url": null,
+      "license": null,
+      "redistribution_reviewed": false
+    },
+    {
+      "filename": "fabric-api-0.161.0+26.2.jar",
+      "mod_id": null,
+      "mod_name": null,
+      "version": null,
+      "sha256": null,
+      "source_url": null,
+      "license": null,
+      "redistribution_reviewed": false
+    },
+    {
+      "filename": "fabric-language-kotlin-1.14.1+kotlin.2.4.20.jar",
+      "mod_id": null,
+      "mod_name": null,
+      "version": null,
+      "sha256": null,
+      "source_url": null,
+      "license": null,
+      "redistribution_reviewed": false
+    },
+    {
+      "filename": "FabricProxy-Lite-2.12.0.jar",
+      "mod_id": null,
+      "mod_name": null,
+      "version": null,
+      "sha256": null,
+      "source_url": null,
+      "license": null,
+      "redistribution_reviewed": false
+    },
+    {
+      "filename": "ferritecore-9.0.0-fabric.jar",
+      "mod_id": null,
+      "mod_name": null,
+      "version": null,
+      "sha256": null,
+      "source_url": null,
+      "license": null,
+      "redistribution_reviewed": false
+    },
+    {
+      "filename": "ForgeConfigAPIPort-v26.2.1-mc26.2.x-Fabric.jar",
+      "mod_id": null,
+      "mod_name": null,
+      "version": null,
+      "sha256": null,
+      "source_url": null,
+      "license": null,
+      "redistribution_reviewed": false
+    },
+    {
+      "filename": "getittogetherdrops-fabric-26.1.1-1.5.1.jar",
+      "mod_id": null,
+      "mod_name": null,
+      "version": null,
+      "sha256": null,
+      "source_url": null,
+      "license": null,
+      "redistribution_reviewed": false
+    },
+    {
+      "filename": "graves-3.12.0+26.2.jar",
+      "mod_id": null,
+      "mod_name": null,
+      "version": null,
+      "sha256": null,
+      "source_url": null,
+      "license": null,
+      "redistribution_reviewed": false
+    },
+    {
+      "filename": "InvView-1.4.21-26.2+.jar",
+      "mod_id": null,
+      "mod_name": null,
+      "version": null,
+      "sha256": null,
+      "source_url": null,
+      "license": null,
+      "redistribution_reviewed": false
+    },
+    {
+      "filename": "jamlib-fabric-2.3.1+26.2.x.jar",
+      "mod_id": null,
+      "mod_name": null,
+      "version": null,
+      "sha256": null,
+      "source_url": null,
+      "license": null,
+      "redistribution_reviewed": false
+    },
+    {
+      "filename": "lithium-fabric-0.25.3+mc26.2.jar",
+      "mod_id": null,
+      "mod_name": null,
+      "version": null,
+      "sha256": null,
+      "source_url": null,
+      "license": null,
+      "redistribution_reviewed": false
+    },
+    {
+      "filename": "lithostitched-1.8.0+beta6-fabric-26.2.jar",
+      "mod_id": null,
+      "mod_name": null,
+      "version": null,
+      "sha256": null,
+      "source_url": null,
+      "license": null,
+      "redistribution_reviewed": false
+    },
+    {
+      "filename": "mineable-spawner-v2.3.9.jar",
+      "mod_id": null,
+      "mod_name": null,
+      "version": null,
+      "sha256": null,
+      "source_url": null,
+      "license": null,
+      "redistribution_reviewed": false
+    },
+    {
+      "filename": "modernfix-5.27.19-build.1.jar",
+      "mod_id": null,
+      "mod_name": null,
+      "version": null,
+      "sha256": null,
+      "source_url": null,
+      "license": null,
+      "redistribution_reviewed": false
+    },
+    {
+      "filename": "modmenu-20.0.2.jar",
+      "mod_id": null,
+      "mod_name": null,
+      "version": null,
+      "sha256": null,
+      "source_url": null,
+      "license": null,
+      "redistribution_reviewed": false
+    },
+    {
+      "filename": "MoogsStructureLib-fabric-26.2-3.2.0.jar",
+      "mod_id": null,
+      "mod_name": null,
+      "version": null,
+      "sha256": null,
+      "source_url": null,
+      "license": null,
+      "redistribution_reviewed": false
+    },
+    {
+      "filename": "netherportalfix-fabric-26.2-26.2.0.1.jar",
+      "mod_id": null,
+      "mod_name": null,
+      "version": null,
+      "sha256": null,
+      "source_url": null,
+      "license": null,
+      "redistribution_reviewed": false
+    },
+    {
+      "filename": "noisium-fabric-2.8.5+mc26.2-pre-2.jar",
+      "mod_id": null,
+      "mod_name": null,
+      "version": null,
+      "sha256": null,
+      "source_url": null,
+      "license": null,
+      "redistribution_reviewed": false
+    },
+    {
+      "filename": "openable-1.0.2.jar",
+      "mod_id": null,
+      "mod_name": null,
+      "version": null,
+      "sha256": null,
+      "source_url": null,
+      "license": null,
+      "redistribution_reviewed": false
+    },
+    {
+      "filename": "open-parties-and-claims-fabric-26.2-0.31.6.jar",
+      "mod_id": null,
+      "mod_name": null,
+      "version": null,
+      "sha256": null,
+      "source_url": null,
+      "license": null,
+      "redistribution_reviewed": false
+    },
+    {
+      "filename": "PacketFixer-fabric-3.3.6.jar",
+      "mod_id": null,
+      "mod_name": null,
+      "version": null,
+      "sha256": null,
+      "source_url": null,
+      "license": null,
+      "redistribution_reviewed": false
+    },
+    {
+      "filename": "PerPlayerWanderingTraders-1.0.4+26.1.2.jar",
+      "mod_id": null,
+      "mod_name": null,
+      "version": null,
+      "sha256": null,
+      "source_url": null,
+      "license": null,
+      "redistribution_reviewed": false
+    },
+    {
+      "filename": "placeholder-api-3.1.0-beta.1+26.2.jar",
+      "mod_id": null,
+      "mod_name": null,
+      "version": null,
+      "sha256": null,
+      "source_url": null,
+      "license": null,
+      "redistribution_reviewed": false
+    },
+    {
+      "filename": "PlayerAnimationLibMerged-1.2.6+mc.26.2.jar",
+      "mod_id": null,
+      "mod_name": null,
+      "version": null,
+      "sha256": null,
+      "source_url": null,
+      "license": null,
+      "redistribution_reviewed": false
+    },
+    {
+      "filename": "players-drop-heads-107.1.jar",
+      "mod_id": null,
+      "mod_name": null,
+      "version": null,
+      "sha256": null,
+      "source_url": null,
+      "license": null,
+      "redistribution_reviewed": false
+    },
+    {
+      "filename": "polymer-bundled-0.17.5+26.2.jar",
+      "mod_id": null,
+      "mod_name": null,
+      "version": null,
+      "sha256": null,
+      "source_url": null,
+      "license": null,
+      "redistribution_reviewed": false
+    },
+    {
+      "filename": "PuzzlesLib-v26.2.3-mc26.2.x-Fabric.jar",
+      "mod_id": null,
+      "mod_name": null,
+      "version": null,
+      "sha256": null,
+      "source_url": null,
+      "license": null,
+      "redistribution_reviewed": false
+    },
+    {
+      "filename": "rightclickharvest-fabric-4.6.2+26.2.x.jar",
+      "mod_id": null,
+      "mod_name": null,
+      "version": null,
+      "sha256": null,
+      "source_url": null,
+      "license": null,
+      "redistribution_reviewed": false
+    },
+    {
+      "filename": "ScalableLux-fabric-0.3.0-alpha.0.3-all.jar",
+      "mod_id": null,
+      "mod_name": null,
+      "version": null,
+      "sha256": null,
+      "source_url": null,
+      "license": null,
+      "redistribution_reviewed": false
+    },
+    {
+      "filename": "seamlesssleep-fabric-26.2-2.6.2.jar",
+      "mod_id": null,
+      "mod_name": null,
+      "version": null,
+      "sha256": null,
+      "source_url": null,
+      "license": null,
+      "redistribution_reviewed": false
+    },
+    {
+      "filename": "servercore-fabric-1.5.19+26.2.jar",
+      "mod_id": null,
+      "mod_name": null,
+      "version": null,
+      "sha256": null,
+      "source_url": null,
+      "license": null,
+      "redistribution_reviewed": false
+    },
+    {
+      "filename": "smallernetherportals-26.2.0-4.0.jar",
+      "mod_id": null,
+      "mod_name": null,
+      "version": null,
+      "sha256": null,
+      "source_url": null,
+      "license": null,
+      "redistribution_reviewed": false
+    },
+    {
+      "filename": "spark-1.10.173-fabric.jar",
+      "mod_id": null,
+      "mod_name": null,
+      "version": null,
+      "sha256": null,
+      "source_url": null,
+      "license": null,
+      "redistribution_reviewed": false
+    },
+    {
+      "filename": "Structory_26.2_v1.3.7.jar",
+      "mod_id": null,
+      "mod_name": null,
+      "version": null,
+      "sha256": null,
+      "source_url": null,
+      "license": null,
+      "redistribution_reviewed": false
+    },
+    {
+      "filename": "tectonic-3.0.28-fabric-26.2.jar",
+      "mod_id": null,
+      "mod_name": null,
+      "version": null,
+      "sha256": null,
+      "source_url": null,
+      "license": null,
+      "redistribution_reviewed": false
+    },
+    {
+      "filename": "Terralith_26.2_v2.6.4.jar",
+      "mod_id": null,
+      "mod_name": null,
+      "version": null,
+      "sha256": null,
+      "source_url": null,
+      "license": null,
+      "redistribution_reviewed": false
+    },
+    {
+      "filename": "trade-cycling-fabric-1.0.21+26.2.jar",
+      "mod_id": null,
+      "mod_name": null,
+      "version": null,
+      "sha256": null,
+      "source_url": null,
+      "license": null,
+      "redistribution_reviewed": false
+    },
+    {
+      "filename": "travelersbackpack-fabric-26.2-11.3.2.jar",
+      "mod_id": null,
+      "mod_name": null,
+      "version": null,
+      "sha256": null,
+      "source_url": null,
+      "license": null,
+      "redistribution_reviewed": false
+    },
+    {
+      "filename": "tru.e-ending-1.1.4d.jar",
+      "mod_id": null,
+      "mod_name": null,
+      "version": null,
+      "sha256": null,
+      "source_url": null,
+      "license": null,
+      "redistribution_reviewed": false
+    },
+    {
+      "filename": "vcinteraction-fabric-1.0.8+26.2.jar",
+      "mod_id": null,
+      "mod_name": null,
+      "version": null,
+      "sha256": null,
+      "source_url": null,
+      "license": null,
+      "redistribution_reviewed": false
+    },
+    {
+      "filename": "voicechat-fabric-2.6.23+26.2.jar",
+      "mod_id": null,
+      "mod_name": null,
+      "version": null,
+      "sha256": null,
+      "source_url": null,
+      "license": null,
+      "redistribution_reviewed": false
+    },
+    {
+      "filename": "wwoo-2.4.3.jar",
+      "mod_id": null,
+      "mod_name": null,
+      "version": null,
+      "sha256": null,
+      "source_url": null,
+      "license": null,
+      "redistribution_reviewed": false
+    },
+    {
+      "filename": "wwoo-fabric-26.2-2.7.1.jar",
+      "mod_id": null,
+      "mod_name": null,
+      "version": null,
+      "sha256": null,
+      "source_url": null,
+      "license": null,
+      "redistribution_reviewed": false
+    },
+    {
+      "filename": "xaerominimap-fabric-26.2-26.5.0.jar",
+      "mod_id": null,
+      "mod_name": null,
+      "version": null,
+      "sha256": null,
+      "source_url": null,
+      "license": null,
+      "redistribution_reviewed": false
+    },
+    {
+      "filename": "xaeroworldmap-fabric-26.2-1.46.0.jar",
+      "mod_id": null,
+      "mod_name": null,
+      "version": null,
+      "sha256": null,
+      "source_url": null,
+      "license": null,
+      "redistribution_reviewed": false
+    },
+    {
+      "filename": "yet_another_config_lib_v3-3.9.6+26.2-fabric.jar",
+      "mod_id": null,
+      "mod_name": null,
+      "version": null,
+      "sha256": null,
+      "source_url": null,
+      "license": null,
+      "redistribution_reviewed": false
+    }
+  ]
+}

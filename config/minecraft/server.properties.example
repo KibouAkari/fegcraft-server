@@ -1,0 +1,11 @@
+# Observed configuration selections; not a complete production server.properties.
+# The changes to view and simulation distance were staged in November 2026.
+max-players=45
+view-distance=8
+simulation-distance=6
+network-compression-threshold=1024
+entity-broadcast-range-percentage=100
+sync-chunk-writes=false
+pause-when-empty-seconds=60
+server-port=25565
+# Authentication/forwarding settings must be validated on your own deployment.

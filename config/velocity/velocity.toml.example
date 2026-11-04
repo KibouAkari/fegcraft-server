@@ -1,0 +1,4 @@
+# Minimal safe illustration, NOT a drop-in production Velocity configuration.
+show-max-players = 777
+# Add your complete Velocity configuration from an approved sanitized export.
+# Never commit forwarding.secret or any authentication values.

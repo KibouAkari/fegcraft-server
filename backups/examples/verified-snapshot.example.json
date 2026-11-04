@@ -1,0 +1,7 @@
+{
+  "schema_note": "illustrative structure; not a production snapshot",
+  "snapshot_id": "<snapshot-id>",
+  "consistent_staging_completed": true,
+  "world_restore_probe_passed": true,
+  "container_recreated": false
+}

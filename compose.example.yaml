@@ -1,0 +1,30 @@
+# REFERENCE ONLY: production image, networking and mounts must be verified before deployment.
+# DO NOT run this against production. No implicit world creation or migration is intended.
+# Compose here documents key known components, not the full production configuration.
+services:
+  minecraft:
+    image: ${MC_IMAGE:?Set MC_IMAGE to your known-good Fabric server image}
+    restart: unless-stopped
+    environment:
+      INIT_MEMORY: ${INIT_MEMORY:-6G}
+      MAX_MEMORY: ${MAX_MEMORY:-24G}
+    volumes:
+      - ./local-data/minecraft:/data
+    # The actual server/proxy forwarding configuration, voice port,
+    # Discord bridge, Vector integration and image contract are NOT reconstructed here.
+    # Do not publish an unprotected backend. Validate before enabling any ports.
+    networks: [minecraft-internal]
+  velocity:
+    image: itzg/mc-proxy:latest
+    restart: unless-stopped
+    environment:
+      TYPE: VELOCITY
+    volumes:
+      - ./local-data/velocity:/server
+      - ./config/velocity:/config:ro
+    ports:
+      - '25565:25565/tcp'
+    networks: [minecraft-internal]
+networks:
+  minecraft-internal:
+    driver: bridge
