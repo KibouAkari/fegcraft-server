@@ -1,54 +1,59 @@
 # FEGCRAFT
 
-**A transparent, reproducible Minecraft server stack.**
+**Minecraft Server Infrastructure & Mod Development Reference**
 
-FEGCRAFT is a community Minecraft server built with Fabric, Velocity and Docker. This repository documents the server configuration, mod inventory, integrations and backup workflow for maintainers and mod creators. Secrets, player data and live world files are intentionally excluded.
+FEGCRAFT is a community Minecraft server running Minecraft
+26.2 with Fabric, Velocity and Docker. This repository documents
+the server architecture, installed mods, configuration,
+gameplay systems and external integrations.
 
-![FEGCRAFT landscape](docs/images/summit-party.png)
+![FEGCRAFT](docs/images/summit-party.png)
 
-## At a glance
+## Environment
 
-| Component | Production snapshot |
+| Component | Production environment |
 | --- | --- |
-| Minecraft | 26.2, Fabric loader 0.19.5 |
+| Minecraft | 26.2 |
+| Fabric Loader | 0.19.5 |
 | Java | Eclipse Temurin 25 |
-| Proxy | Velocity via `itzg/mc-proxy` |
-| Deployment | Docker Compose on Debian 13 |
-| Memory | 6 GiB initial / 24 GiB maximum JVM heap |
-| Performance | Lithium, C2ME, FerriteCore, ModernFix, ServerCore, spark and others |
-| Backups | Existing incremental restic workflow with verification |
+| Operating system | Debian 13 |
+| Deployment | Docker Compose |
+| Proxy | Velocity |
+| Installed mod JARs | 64 |
+| JVM heap | 6 GiB initial / 24 GiB maximum |
+| Voice | Simple Voice Chat |
+| Web map | BlueMap |
+| Parties and claims | Open Parties and Claims |
 
-The information above is drawn from the November 2026 production audit. See [runtime snapshot](docs/runtime.md). This is an **infrastructure documentation starter**, not a full byte-for-byte production export yet.
+## Technical documentation
 
-## Gallery
-
-<table><tr><td width="50%"><img src="docs/images/fegleimental-sign.png" alt="FEG Sign" /></td><td width="50%"><img src="docs/images/mountain-cross.png" alt="Mountain cross" /></td></tr><tr><td><img src="docs/images/night-settlement.png" alt="Settlement at night" /></td><td><img src="docs/images/fortress-overview.png" alt="Fortress overview" /></td></tr></table>
-
-## Get started
-
-1. Read [deployment](docs/deployment.md) and [architecture](docs/architecture.md).
-2. Export reviewed, sanitized production configuration using `scripts/export-from-server.py` on the server. It does **not** deploy or restart anything.
-3. Supply your own mod JARs according to [mods/README.md](mods/README.md). Third-party JAR redistribution needs license review.
-4. Configure a local `.env` and choose an actual Minecraft image/build source. The [Compose reference](compose.example.yaml) is illustrative and **not yet validated against production**.
-5. Restore world data from an authorized backup and test on a separate host before any production deployment.
-
-## Repository
-
-| Path | Purpose |
+| Reference | Description |
 | --- | --- |
-| [`mods/`](mods/) | Observed mod JAR names, version hints and manifest generation |
-| [`config/`](config/) | Example Minecraft and Velocity configuration |
-| [`docker/`](docker/) | Container build requirements and provenance |
-| [`backups/`](backups/) | Backup workflow documentation and placeholders for reviewed scripts |
-| [`scripts/`](scripts/) | Inventory export, checksums and publication safety checks |
-| [`docs/`](docs/) | Operations, setup, integrations and gallery |
+| [Architecture](docs/architecture.md) | Server components and data flow |
+| [Network](docs/network.md) | Domains, ports and network boundaries |
+| [Mod development](docs/mod-development.md) | Runtime compatibility and existing systems |
+| [Installed mods](mods/README.md) | Versions, mod IDs and SHA256 hashes |
+| [Integrations](docs/integrations.md) | Discord, Vector, Velocity, voice and map |
+| [Configuration](docs/configuration.md) | Published and private configuration |
+| [Runtime](docs/runtime.md) | Hardware, resource allocation and performance |
+| [Backups](docs/backups.md) | Backup architecture |
 
-## Contributing
+## Server gallery
 
-For mod compatibility reports, include the relevant mod version, Minecraft and Fabric versions, a sanitized log excerpt and reproduction steps. Please open an issue using the provided templates. Never post credentials, access tokens, player information or world backups.
+<table>
+<tr>
+<td><img src="docs/images/fegleimental-sign.png" alt="Settlement" /></td>
+<td><img src="docs/images/mountain-cross.png" alt="Mountain cross" /></td>
+</tr>
+<tr>
+<td><img src="docs/images/night-settlement.png" alt="Night settlement" /></td>
+<td><img src="docs/images/fortress-overview.png" alt="Fortress" /></td>
+</tr>
+</table>
 
-**World state is not distributed.** A new instance requires your own worlds or a separately authorized restore. The included example does not give access to the production network, Discord bot or Vector services.
+## Repository scope
 
-## Licensing
-
-Repository materials have no blanket license until the maintainers select one. Each third-party mod and image retains its original rights. Screenshots are supplied for this project; confirm publication and image rights before making the repository public.
+This repository provides technical documentation and a
+production-derived mod inventory. Worlds, player identities,
+credentials, forwarding secrets and private runtime data are
+not distributed. Third-party mods retain their own licenses.

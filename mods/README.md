@@ -1,13 +1,18 @@
-# Mods
+# Installed mods
 
-The [snapshot manifest](mods.lock.json) lists the exact JAR filenames observed in November 2026. These are **filename-derived version hints**, not cryptographically verified files or manually audited mod identities. The `sha256` fields are null until a read-only hash inventory is run against real JARs.
+The production inventory contains **64 mod JARs** for
+Minecraft 26.2 and Fabric Loader 0.19.5.
 
-Run on the Minecraft host (no restarts):
+| File | Contents |
+| --- | --- |
+| [mods.lock.json](mods.lock.json) | Mod IDs, names, versions, JAR filenames, SHA256 checksums and available license metadata |
+| [mods.csv](mods.csv) | Tabular inventory |
 
-```bash
-python3 scripts/generate_mod_manifest.py --mods-dir /opt/fegcraft-updated/data/mods --output mods/mods.lock.json
-```
+The inventory was obtained from installed JAR metadata
+and SHA256 hashes. The hashes identify the observed files.
 
-This reads JAR contents locally, extracts Fabric metadata when possible, and records SHA-256 without copying JAR bytes. Review filenames, metadata, licenses and download sources before publication. The program does not invent download URLs or license grants.
+For compatibility requirements and existing gameplay
+systems, see [Mod development](../docs/mod-development.md).
 
-`mods/jars/` stays empty in the public repository until redistribution rights are verified. If rebuilding, retrieve original exact artifacts from their authors and verify hashes.
+Mod binaries are not redistributed here. Original mod
+licenses and distribution restrictions remain applicable.

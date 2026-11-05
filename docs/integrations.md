@@ -2,16 +2,47 @@
 
 ## Discord
 
-`dcintegration-fabric-MC26.2-3.2.1.jar`, `vcinteraction-fabric-1.0.8+26.2.jar` and `voicechat-fabric-2.6.23+26.2.jar` were present. No production token, channel mapping or bot credentials are exported. Validate login/linking and moderation events in a private test environment.
+Minecraft integration is provided by Discord Integration
+3.2.1. Voice Chat Interaction is also installed.
+
+Production configuration includes Discord commands,
+messages and Minecraft account-linking state.
+
+The public repository excludes live account mappings,
+credentials, tokens and private identifiers.
+
+The custom event schema and bot transport have not yet
+been verified for third-party use.
 
 ## Vector
 
-The host runs `vector-fegcraft-assistant` alongside the separate Vector application stack. Exact integration API and service credentials have not been supplied for this starter. Document their *interface contracts* in a reviewed example file before claiming reproductions work.
+Vector is a separate application stack hosted alongside
+the Minecraft environment.
+
+A Vector-related bridge configuration exists in the
+Minecraft integration data directory.
+
+The authentication model, endpoints and message formats
+remain private until their interfaces are reviewed.
 
 ## Velocity
 
-Proxy to Fabric forwarding mode and authentication need to be preserved exactly, with secrets injected at deployment. Do not expose a Fabric backend directly before verifying proxy-only joins and authentication requirements.
+Velocity is the Minecraft proxy. FabricProxy-Lite is
+installed on the backend. Authentication and forwarding
+configuration must remain consistent between both.
 
-## Player-facing services
+## Voice chat
 
-Verify public Minecraft TCP status and join, voice UDP, web map, claims, permissions, world backups and webhook messages in the test deployment. A Docker `healthy` status alone is not a full functional test.
+Simple Voice Chat provides voice communication over UDP.
+Voice Chat Interaction is installed alongside it.
+
+## Web map
+
+BlueMap provides the browser-accessible map.
+Its local upstream is separate from public reverse
+proxy routing.
+
+## Gameplay systems
+
+Open Parties and Claims provides party and claim
+functionality. Its installed version is 0.31.6.
