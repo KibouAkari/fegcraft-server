@@ -38,6 +38,8 @@ gameplay systems and external integrations.
 | [Runtime](docs/runtime.md) | Hardware, resource allocation and performance |
 | [Backups](docs/backups.md) | Backup architecture |
 
+| [Integration reference](docs/integration-reference.md) | Discord, Vector and proxy configuration interfaces |
+
 ## Server gallery
 
 <table>

@@ -74,3 +74,7 @@ chunk loading and excessive synchronous disk writes.
 - [Networking](network.md)
 - [External integrations](integrations.md)
 - [Configuration](configuration.md)
+
+## Integration configuration reference
+
+See [Integration reference](integration-reference.md) for observed Discord command fields, linking settings, Vector bridge settings and proxy configuration interfaces.
